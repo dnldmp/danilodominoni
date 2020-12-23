@@ -1,17 +1,33 @@
 section.fotoSection{
     text-align: center;
-    padding: 40px 0;
 }
 
-.fotoSection h2 {
-    margin-top: 15px;
-    font-size: 30px;
+.fotoSection h1 {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3.5rem;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+}
+
+.fotoSection p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .foto img{
-    width: 145px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 3px solid #030E06;
+    margin: 2rem 0;
 }
 
 section.menuSection{
@@ -19,21 +35,60 @@ section.menuSection{
 }
 
 .menuItens{
+    display: flex;
     list-style-type: none;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .menuItens a {
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #030E06;
+    margin: 1rem;
+    padding: 1.5rem;
+    flex-basis: 45%;
+    text-align: left;
     text-decoration: none;
-    font-weight: bold;
+    border: 1px solid #eaeaea;
+    transition: color 0.15s ease,border-color 0.15s ease;
+    border-radius: 10px;
 }
 
-.menuItens li {
-    margin-bottom: 15px;
-    padding: 20px 0;
-    width: 100%;
-    border: 3px solid #030E06;
+.menuItens a:hover{
+    border: 1px solid #20FB01;
+}
+
+.menuItens a h3{
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.menuItens a p{
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    display: block;
+}
+
+@media (max-width: 700px){
+    .menuItens a {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .fotoSection h1 {
+        line-height: 1;
+        font-size: 2rem;
+    }
+
+    .menuItens a h3{
+        margin: 0 0 0.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    .foto img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 2rem;
+    }
 }

@@ -7,7 +7,8 @@ export default function Foto(){
                 <div className={style.foto}>
                     <img src="/danilodominoni.png" />
                 </div>
-                <h2>@danilodominoni</h2>
+                <h1>Danilo Dominoni</h1>
+                <p>Tudo se resolve com um bom código!</p>
             </div>
         </section>
     )
