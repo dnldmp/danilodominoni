@@ -1,10 +1,13 @@
-import Foto from '../components/Foto'
+import style from '../../styles/Portifolio.module.css'
 
 export default function Portifolio(){
     return (
-        <div>
-            <Foto />
-            <h1>Portifolio works</h1>
+        <div className={style.background}>
+            <style jsx global>{`
+                body {
+                    background: black;
+                }
+            `}</style>       
         </div>
     )
 }
