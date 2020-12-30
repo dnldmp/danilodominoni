@@ -9,9 +9,9 @@ function Home(){
             <div className="center">
                 <div className={menuStyle.menuItens}>
                     <Menu 
-                        href="https://youtu.be/SMi_srTBMnk" 
+                        href="https://youtu.be/Ox22gJ41-P4" 
                         title="Novo Vídeo" 
-                        subtitle="Venha conferir meu novo vídeo sobre git."
+                        subtitle="Venha conferir estratégias para ficar rico com programação"
                     />
                     <Menu 
                         href="https://bit.ly/3k6bNu1" 
