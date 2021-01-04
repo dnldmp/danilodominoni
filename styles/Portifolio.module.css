@@ -59,6 +59,7 @@
     }
     .sectionProject img {
         transform: scale(1.5);
+        height:auto
     }
     .sectionProject  {
         padding-top: 100px
