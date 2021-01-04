@@ -6,7 +6,6 @@
 .sectionAbout{
     min-height: 100vh;
     padding: 2%;
-    background-color: black;
 }
 
 .sectionAbout img{
@@ -37,9 +36,6 @@
 .sectionAbout p:nth-child(2){
     margin-top: 35px;
 }
-.sectionProject{
-    background-color: black;
-}
 
 /* .project1 {
     width: 100%;
@@ -56,5 +52,15 @@
 
 @media (max-width: 700px){
     .fifityp{ width: 100%; }
-    .sectionAbout p{ text-align: center; }
+    .sectionAbout p{ 
+        text-align: center; 
+        font-size: 1.2rem;
+        margin-top: 15px;
+    }
+    .sectionProject img {
+        transform: scale(1.5);
+    }
+    .sectionProject  {
+        padding-top: 100px
+    }
 }

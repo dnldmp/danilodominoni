@@ -3,6 +3,11 @@ import style from '../../styles/Portifolio.module.css'
 export default function Portifolio(){
     return (
         <div>
+            <style jsx global>{`
+                body {
+                    background: black;
+                }
+            `}</style>  
             <section className={style.sectionAbout}>  
                 <div className={style.center}>
                     <h2>Sobre mim</h2>
@@ -18,11 +23,7 @@ export default function Portifolio(){
                         </p>
                     </div>
                     <div className="clear"></div>
-                    {/* <style jsx global>{`
-                        body {
-                            background: black;
-                        }
-                    `}</style>        */}
+     
                 </div>
             </section>
             <section className={style.sectionProject}>
