@@ -1,6 +1,10 @@
 import style from '../../styles/Portifolio.module.css'
 
 export default function Portifolio(){
+    const appresentation = `Ja parou para pensar, como seria aproveitar a vida ao máximo, 
+    sem preocupações? Hoje eu posso te proporcionar tudo isso, durante o desenvolvimento
+    do seu projeto dos sonhos. Por este motivo, separei abaixo alguns dos meus 
+    melhores trabalhos para você me cohecer melhor.`;
     return (
         <div>
             <style jsx global>{`
@@ -16,11 +20,7 @@ export default function Portifolio(){
                     </div>
                     <div className={style.fifityp}>
                         <p>Oi, meu nome é Danilo Dominoni, sou Desenvolvedor de Sistemas desde 2014.</p>
-                        <p>Ja parou para pensar, como seria aproveitar a vida ao máximo, 
-                            sem preocupações? Hoje eu posso te proporcionar tudo isso, durante o desenvolvimento
-                            do seu projeto dos sonhos. Por este motivo, separei abaixo alguns dos meus 
-                            melhores trabalhos para você me cohecer melhor.    
-                        </p>
+                        <p>{appresentation}</p>
                     </div>
                     <div className="clear"></div>
      
