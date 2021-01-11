@@ -4,7 +4,7 @@ import menuStyle from '../../styles/Menu.module.css'
 
 function Home(){
     return(
-        <div>
+        <div style={{textAlign: 'center'}}>
             <Foto />
             <div className="center">
                 <div className={menuStyle.menuItens}>
@@ -12,6 +12,11 @@ function Home(){
                         href="https://youtu.be/LXGKX9ALAxk" 
                         title="Novo Vídeo" 
                         subtitle="Venha aprender o que é front-end e back-end e quais tecnologias aprender"
+                    />
+                    <Menu 
+                        href="https://www.hostgator.com.br/40817-77-3-32.html"
+                        title="Desconto Hospedagem"
+                        subtitle="Ganhe um desconto de 55% na sua hospedagem + domínio totalmente grátis"
                     />
                     <Menu 
                         href="https://bit.ly/3k6bNu1" 
@@ -40,6 +45,9 @@ function Home(){
                     />
                 </div>
             </div>
+            <a href="https://www.hostgator.com.br/40817-77-1-837.html" target="_blank" rel="nofollow">
+                <img style={{border:0, width:336, height:280}} src="https://latam-files.hostgator.com/br/afiliados/hospedagem/336x280.png" alt="hostgator"/>
+            </a>
         </div>
     )
 }
