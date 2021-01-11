@@ -19,6 +19,11 @@ function Home(){
                         subtitle="Ganhe um desconto de 55% na sua hospedagem + domínio totalmente grátis"
                     />
                     <Menu 
+                        href="https://www.upwork.com/ab/flservices/cl/public/org/1348703836003749889"
+                        title="Seja meu Cliente"
+                        subtitle="Faça uma proposta para que eu desenvolva o seu projeto :)"
+                    />
+                    <Menu 
                         href="https://bit.ly/3k6bNu1" 
                         title="YouTube" 
                         subtitle="Local para ver conteúdos incríveis sobre programação"
@@ -42,6 +47,11 @@ function Home(){
                         href="https://github.com/dnldmp/" 
                         title="GitHub" 
                         subtitle="Da uma olhada na minha stack e nos meus códigos."
+                    />
+                    <Menu 
+                        href="https://transferwise.com/invite/u/danilod586" 
+                        title="TransferWise" 
+                        subtitle="Conheça como você pode enviar dinheiro para fora do brasil de forma rápida e barata"
                     />
                 </div>
             </div>
