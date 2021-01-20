@@ -31,6 +31,16 @@ export default function Portifolio(){
                     <img src="/background-1-site.png" />
                 </div>
             </section>
+            <section className={style.sectionProject}>
+                <div className={style.center}>
+                    <img src="/lp1.png" />
+                </div>
+            </section>
+            <section className={style.sectionProject}>
+                <div className={style.center}>
+                    <img src="/lp2.png" />
+                </div>
+            </section>
         </div>
     )
 }
