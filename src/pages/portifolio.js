@@ -2,7 +2,7 @@ import style from '../../styles/Portifolio.module.css'
 
 export default function Portifolio(){
     const appresentation = `Ja parou para pensar, como seria aproveitar o seu tempo de
-    forma mais eficiente, focando nas coisas mais impotantes sem preocupações? 
+    forma mais eficiente, focando nas coisas mais importantes sem preocupações? 
     Hoje eu posso te proporcionar tudo isso, durante o desenvolvimento
     do seu projeto. Por este motivo, separei abaixo alguns dos meus 
     melhores trabalhos para você me cohecer melhor.`;
