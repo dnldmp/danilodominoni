@@ -20,7 +20,7 @@ export default function Portifolio(){
                         <img src="/aboutme.jpg" />
                     </div>
                     <div className={style.fifityp}>
-                        <p>Oi, meu nome é Danilo Dominoni, sou Desenvolvedor de Sistemas desde 2014.</p>
+                        <p>Oi, meu nome é Danilo Dominoni, estou desenvolvendo sistemas desde 2014.</p>
                         <p>{appresentation}</p>
                     </div>
                     <div className="clear"></div>
