@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
                 <meta name="description" content="Danilo Dominoni - Desenvolvedor de sistemas - Programação Web e Apps." />
                 <meta name="keywords" content="desenvolvimento web,seo,programação,portifólio,web design,front-end,web developer,back-end" />
                 <meta name="robots" content="index,follow" />
+                <meta name="yandex-verification" content="858220c6447b1efe" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta property="og:title" content="Danilo Dominoni"/>
                 <meta property="og:site_name" content="Danilo Dominoni"/>
