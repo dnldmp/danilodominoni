@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Menu(props) {
-  const [href, title, subtitle] = props;
+function Menu({ href, title, subtitle }) {
   return (
     <a href={href}>
       <h3>{title}</h3>
@@ -9,3 +9,11 @@ export default function Menu(props) {
     </a>
   );
 }
+
+Menu.propTypes = {
+  href: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+};
+
+export default Menu;

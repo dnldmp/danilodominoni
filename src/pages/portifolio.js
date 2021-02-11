@@ -1,5 +1,5 @@
-import React from "react";
-import style from "../../styles/Portifolio.module.css";
+import React from 'react';
+import style from '../../styles/Portifolio.module.css';
 
 export default function Portifolio() {
   const appresentation = `Ja parou para pensar, como seria aproveitar o seu tempo de
@@ -29,24 +29,25 @@ export default function Portifolio() {
             </p>
             <p>{appresentation}</p>
           </div>
-          <div className="clear"></div>
         </div>
       </section>
-      <section className={style.sectionProject}>
-        <div className={style.center}>
-          <img src="/background-1-site.png" alt="background" />
-        </div>
-      </section>
-      <section className={style.sectionProject}>
-        <div className={style.center}>
-          <img src="/lp1.png" alt="background" />
-        </div>
-      </section>
-      <section className={style.sectionProject}>
-        <div className={style.center}>
-          <img src="/lp2.png" alt="background" />
-        </div>
-      </section>
+      <div className="clear">
+        <section className={style.sectionProject}>
+          <div className={style.center}>
+            <img src="/background-1-site.png" alt="background" />
+          </div>
+        </section>
+        <section className={style.sectionProject}>
+          <div className={style.center}>
+            <img src="/lp1.png" alt="background" />
+          </div>
+        </section>
+        <section className={style.sectionProject}>
+          <div className={style.center}>
+            <img src="/lp2.png" alt="background" />
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

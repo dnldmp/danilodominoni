@@ -1,6 +1,7 @@
-import Head from "next/head";
-import React from "react";
-import "../../styles/globals.css";
+import Head from 'next/head';
+import React from 'react';
+import '../../styles/globals.css';
+import PropTypes from 'prop-types';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -37,5 +38,10 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired,
+  pageProps: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired,
+};
 
 export default MyApp;

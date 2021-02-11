@@ -1,8 +1,8 @@
-import Head from "next/head";
-import React from "react";
-import Foto from "../components/Foto";
-import Menu from "../components/Menu";
-import menuStyle from "../../styles/Menu.module.css";
+import Head from 'next/head';
+import React from 'react';
+import Foto from '../components/Foto';
+import Menu from '../components/Menu';
+import menuStyle from '../../styles/Menu.module.css';
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: 'center' }}>
         <Foto />
         <div className="center">
           <div className={menuStyle.menuItens}>

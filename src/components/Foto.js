@@ -1,5 +1,5 @@
-import React from "react";
-import style from "../../styles/Home.module.css";
+import React from 'react';
+import style from '../../styles/Home.module.css';
 
 export default function Foto() {
   return (
