@@ -1,8 +1,11 @@
-export default function Menu(props){
-    return(
-        <a href={props.href}>
-            <h3>{props.title}</h3>
-            <p>{props.subtitle}</p>
-        </a>
-    )
+import React from "react";
+
+export default function Menu(props) {
+  const [href, title, subtitle] = props;
+  return (
+    <a href={href}>
+      <h3>{title}</h3>
+      <p>{subtitle}</p>
+    </a>
+  );
 }
