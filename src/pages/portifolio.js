@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import style from '../../styles/Portifolio.module.css';
 
 export default function Portifolio() {
@@ -29,6 +30,11 @@ export default function Portifolio() {
             </p>
             <p>{appresentation}</p>
           </div>
+          <a target="_blank" rel="noreferrer" href="https://bit.ly/3u4e12O">
+            <button className={style.contactUsBtn} type="button">
+              fale conosco
+            </button>
+          </a>
         </div>
       </section>
       <div className="clear">
