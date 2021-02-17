@@ -1,5 +1,6 @@
 import React from 'react';
 import style from '../../styles/Portifolio.module.css';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 export default function Portifolio() {
   const appresentation = `Ja parou para pensar, como seria aproveitar o seu tempo de
@@ -9,6 +10,7 @@ export default function Portifolio() {
     melhores trabalhos para você me cohecer melhor.`;
   return (
     <div>
+      <GoogleAnalytics />
       <style jsx global>
         {`
           body {

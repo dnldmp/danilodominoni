@@ -7,13 +7,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-663814183"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-663814183');
-        </script>
         <title>Danilo Dominoni</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="author" content="Danilo Dominoni" />

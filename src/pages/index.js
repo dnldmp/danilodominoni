@@ -3,10 +3,12 @@ import React from 'react';
 import Foto from '../components/Foto';
 import Menu from '../components/Menu';
 import menuStyle from '../../styles/Menu.module.css';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 function Home() {
   return (
     <div className="container">
+      <GoogleAnalytics />
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
