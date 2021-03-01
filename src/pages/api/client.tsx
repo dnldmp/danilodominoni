@@ -15,6 +15,7 @@ export default async (req, res) => {
       surname,
       email,
       phone,
+      date: new Date(),
     });
     res.status(200).json(response.ops[0]);
   } else {
