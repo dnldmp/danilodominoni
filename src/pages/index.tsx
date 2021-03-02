@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/pages/Home.module.css';
-import GoogleAnalytics from '../components/GoogleAnalytics';
 import { FormData } from '../components/FormData';
 
 class Portifolio extends Component {
