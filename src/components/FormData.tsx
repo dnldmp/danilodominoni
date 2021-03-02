@@ -1,12 +1,19 @@
 import styles from '../styles/components/FormData.module.css';
 import InputMask from 'react-input-mask';
+import * as gtag from '../lib/gtag';
 
 export function FormData() {
   const registerClient = (e) => {
-    alert('Solicitação enviada com sucesso');
     setTimeout(() => {
       e.target.reset();
     }, 2000);
+    gtag.event({
+      action: 'submit_form_with_data',
+      category: 'homepage',
+      label: 'Form sended',
+      value: 'Form send successful',
+    });
+    alert('Solicitação enviada com sucesso');
   };
 
   return (
