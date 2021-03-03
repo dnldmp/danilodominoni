@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '../styles/pages/Home.module.css';
 import { FormData } from '../components/FormData';
 import { Benefits } from '../components/Benefits';
+import { Steps } from '../components/Steps';
 
 class Portifolio extends Component {
   constructor(props) {
@@ -12,8 +13,6 @@ class Portifolio extends Component {
   }
 
   render() {
-    const scroll = true;
-
     return (
       <div>
         <div className={styles.backgroundImage} id="form">
@@ -25,6 +24,9 @@ class Portifolio extends Component {
         </div>
         <div className={styles.homeContainer}>
           <Benefits />
+        </div>
+        <div className={styles.homeContainer}>
+          <Steps />
         </div>
       </div>
     );
