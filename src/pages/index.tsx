@@ -24,10 +24,10 @@ class Portifolio extends Component {
           </div>
         </div>
         <div className={styles.homeContainer}>
-          <WhoAmI />
+          <Benefits />
         </div>
         <div className={styles.homeContainer}>
-          <Benefits />
+          <WhoAmI />
         </div>
         <div className={styles.homeContainer}>
           <Steps />
