@@ -5,6 +5,7 @@ import styles from '../styles/pages/Home.module.css';
 import { FormData } from '../components/FormData';
 import { Benefits } from '../components/Benefits';
 import { Steps } from '../components/Steps';
+import { WhoAmI } from '../components/WhoAmI';
 
 class Portifolio extends Component {
   constructor(props) {
@@ -21,6 +22,9 @@ class Portifolio extends Component {
               <FormData />
             </div>
           </div>
+        </div>
+        <div className={styles.homeContainer}>
+          <WhoAmI />
         </div>
         <div className={styles.homeContainer}>
           <Benefits />
