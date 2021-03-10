@@ -1,0 +1,49 @@
+.myProjectsContainer {
+  display: flex;
+  padding: 2.5rem 2rem;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.myProjectsContainer div {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.myProjectsContainer img {
+  max-width: 90%;
+  margin: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+}
+
+.myProjectsContainer div strong {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+.myProjectsContainer div p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.myProjectsContainer h4 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.myProjectsContainer a {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 15px;
+  color: var(--background);
+}
+
+.myProjectsContainer a:hover {
+  background-color: #ccc;
+}

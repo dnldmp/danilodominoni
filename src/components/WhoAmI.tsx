@@ -21,7 +21,7 @@ export function WhoAmI() {
           <p>
             <br />
             Prazer eu sou o Danilo Dominoni, já trabalhei em diversos projetos
-            diverentes. Um dos mais conhecidos com toda certeza foi o aplicativo
+            diferentes. Um dos mais conhecidos com toda certeza foi o aplicativo
             da Bradesco Seguros.
             <p>
               <br />

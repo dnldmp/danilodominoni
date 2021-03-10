@@ -6,6 +6,7 @@ import { FormData } from '../components/FormData';
 import { Benefits } from '../components/Benefits';
 import { Steps } from '../components/Steps';
 import { WhoAmI } from '../components/WhoAmI';
+import { MyProjects } from '../components/MyProjects';
 
 class Portifolio extends Component {
   constructor(props) {
@@ -24,13 +25,16 @@ class Portifolio extends Component {
           </div>
         </div>
         <div className={styles.homeContainer}>
-          <Benefits />
-        </div>
-        <div className={styles.homeContainer}>
           <WhoAmI />
         </div>
         <div className={styles.homeContainer}>
+          <Benefits />
+        </div>
+        <div className={styles.homeContainer}>
           <Steps />
+        </div>
+        <div className={styles.homeContainer}>
+          <MyProjects />
         </div>
       </div>
     );
